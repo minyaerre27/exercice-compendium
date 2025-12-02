@@ -23,3 +23,7 @@ This project is structured as follow :
 \- 'R' contains functions
 
 \- 'DESCRIPTION' file
+
+\- 'make.R' loads the package, dependencies and functions
+
+\- '.gitignore' contains git to ignore when commiting

@@ -1,6 +1,6 @@
 Package: exercice-compendium
 Type: Package
-Title: The Title of the Project
+Title: Practice research compendium
 Version: 0.0.0.9000
 Authors@R: c(
     person(given   = "Minya",
@@ -8,8 +8,7 @@ Authors@R: c(
            role    = c("aut", "cre", "cph"),
            email   = "minyaerre@gmail.fr",
            comment = c(ORCID = "0000-0000-0000-0000")))
-Description: A paragraph providing a full description of the project (on 
-    several lines...)
+Description: This is the main practice for eth research compendium course.
 URL: https://github.com/minyaerre27/exercice-compendium
 BugReports: https://github.com/minyaerre27/exercice-compendium/issues
 License: GPL-2
