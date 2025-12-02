@@ -8,7 +8,7 @@ dir.create(dir)
 file <- "wildfinder-ecoregions_list.csv"
 
 ## GitHub url
-url <- "https://github.com/rdatatoolbox/datarepo/blob/main/data/wildfinder/wildfinder-ecoregions_list.csv"
+url <- "https://raw.githubusercontent.com/rdatatoolbox/datarepo/main/data/wildfinder/wildfinder-ecoregions_list.csv"
 
 ## Build full path
 dest <- file.path(dir, file)
@@ -24,3 +24,4 @@ usethis::use_r("dl_wildfinder_data")
 # Calling the function
 dl_wildfinder_data("wildfinder-ecoregions_species.csv")
 dl_wildfinder_data("wildfinder-mammals_list.csv")
+

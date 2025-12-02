@@ -10,7 +10,7 @@
 #' @examples
 dl_wildfinder_data <- function(filename,dir = here::here("data", "wildfinder")){
   # GitHub url
-  url <- "https://github.com/rdatatoolbox/datarepo/blob/main/data/wildfinder/"
+  url <- "https://raw.githubusercontent.com/rdatatoolbox/datarepo/main/data/wildfinder/"
   # Create a full url
   full_url <- paste0(url,filename)
   # Create the full path where to save
